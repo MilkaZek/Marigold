@@ -1,0 +1,144 @@
+ html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Noto Sans', sans-serif;
+
+  /* Users can't highlight anything on the page */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Flexbox:  */
+.top-widget{
+  display: flex;
+}
+
+/* Header */
+.marigold{
+  margin-left: 300px;
+  display: inline;
+  margin-top: 55px;
+  font-size: 40px;
+}
+
+/* Entire nav bar itself */
+.nav-bar{
+  margin-top: 73px;
+  margin-left: 79px;
+}
+
+/* Individual items on the nav bar */
+.nav-item{
+  display: inline;
+  padding-right: 81px;
+  font-size: 24px;
+}
+
+/* Links (gets rid of the underline) */
+a{
+  color: white;
+  text-decoration-line: none;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #CAD2C5;
+}
+
+a#non-header:hover{
+  color: white;
+}
+
+a#selected{
+  color: #CAD2C5;
+  border-bottom: 3px solid #CAD2C5;
+  padding-bottom: 10px;
+}
+
+body{
+  background-color: #52796F;
+  color: white;
+}
+
+.bigflexboxhome{
+  height: 100%;
+  width: 1363px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #84A98C;
+}
+
+.leftsidebox{
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightsidebox{
+  margin-left: 50px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-and-picture{
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 75px;
+}
+
+.picture{
+  height: 200px;
+}
+
+.picture#left{
+  margin-right: 30px;
+}
+
+.picture#right{
+  margin-left: 30px;
+}
+
+.home-img{
+  height: 200px;
+  width: 350px;
+  object-fit: cover;
+}
+
+.right-header{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.right-text{
+  height: 90%;
+  background: #a9c6af;
+  margin-right: 30px;
+}
+
+.get-started{
+  font-size: 20px;
+}
+
+.information{
+  margin: 20px;
+} 
+
+.text{
+  font-size: 15px;
+}
+
+.gif{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  object-fit: cover;
+}
