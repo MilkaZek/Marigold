@@ -1,0 +1,147 @@
+ html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+  background-color: #52796F;;
+  color: white;
+
+  /* Users can't highlight anything on the page */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Flexbox:  */
+.top-widget{
+  display: flex;
+}
+
+/* Header */
+.marigold{
+  margin-left: 300px;
+  display: inline;
+  margin-top: 55px;
+  font-size: 40px;
+}
+
+/* Entire nav bar itself */
+.nav-bar{
+  margin-top: 73px;
+  margin-left: 79px;
+}
+
+/* Individual items on the nav bar */
+.nav-item{
+  display: inline;
+  padding-right: 81px;
+  font-size: 24px;
+}
+
+/* Links (gets rid of the underline) */
+a{
+  color: white;
+  text-decoration-line: none;
+  text-decoration: none;
+}
+
+
+
+a#selected{
+  color: #CAD2C5;
+  border-bottom: 3px solid #CAD2C5;
+  padding-bottom: 10px;
+}
+  
+.rectangle-background{
+  height: 800px;
+  width: 1363px;
+  background-color: #84A98C;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.second-row-mood-circles{
+  display: inline-flex;
+}
+
+.third-row-mood-circles{
+  display: inline-flex;
+}
+
+.circle{
+  text-align: center;
+  font-size: 24px;
+  line-height: 160px;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.circle#first{
+  background-color: #987dcf;
+  box-shadow: inset 5px 4px 3px #7251B5;
+  position: relative;
+  left: 602px;
+  top: 71px;
+}
+
+.circle#second{
+  background-color: #3c64c8;
+  box-shadow: inset 5px 4px 3px #1B44AD;
+  position: relative;
+  left: 384px;
+  top: 81px;
+}
+
+.circle#third{
+  background-color: #f5b2c4;
+  box-shadow: inset 5px 4px 3px #FF9BB5;
+  position: relative;
+  left: 664px;
+  top: 81px;
+}
+
+.circle#forth{
+  background-color: #eada9a;
+  box-shadow: inset 5px 4px 3px #E3CE7E;
+  position: relative;
+  left: 59px;
+  top: 271px;
+}
+
+.circle#fifth{
+  background-color: #c6d8ec;
+  box-shadow: inset 5px 4px 3px #AECBEB;
+  position: relative;
+  left: 339px;
+  top: 271px;
+}
+
+.circle#sixth{
+  background-color: #df4e64;
+  box-shadow: inset 5px 4px 3px #DC364E;
+  position: relative;
+  left: 602px;
+  top: 20px;
+}
+
+.mood-text{
+  font-size: 24px;
+  position: relative;
+  left: 560px;
+  text-align: center;
+  line-height: 80px;
+  height: 250px;
+  width: 250px;
+}
+
+a#mood-link:hover{
+  color: white;
+}
+
