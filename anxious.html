@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="anxious.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section class="top-widget">
+    <h1 class="marigold"><a href="index.html">marigold</a></h1>
+    <nav>
+      <ul class="nav-bar">
+        <li class="nav-item"><a href="index.html">home</a></li>
+        <li id="selected" class="nav-item"><a href="mood.html" id="selected">mood</a></li>
+        <li class="nav-item"><a href="resources.html">resources</a></li>
+        <li class="nav-item"><a href="about.html">about</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <!-- Big flex box -->
+  <section class="big-flexbox-mood">
+    <div class="moodbox">
+      <div class="mood-list">
+        <div class="circle-flex-box">
+          <nav>
+            <a href="happy.html">
+              <div class="circle" id="happy"></div>
+            </a>
+            <a href="tired.html">
+              <div class="circle" id="tired"></div>
+            </a>
+            <a href="playful.html">
+              <div class="circle" id="playful"></div>
+            </a>
+            <a href="anxious.html">
+              <div class="circle" id="anxious"></div>
+            </a>
+            <a href="calm.html">
+              <div class="circle" id="calm"></div>
+            </a>
+            <a href="frustrated.html">
+              <div class="circle" id="frustrated"></div>
+            </a>
+          </nav>
+        </div>
+        <div class="text-flex-box">
+          <nav>
+            <a href="happy.html" id="non-header">
+              <article class="mood-text">happy</article>
+            </a>
+            <a href="tired.html" id="non-header">
+              <article class="mood-text">tired</article>
+            </a>
+            <a href="playful.html" id="non-header">
+              <article class="mood-text">playful</article>
+            </a>
+            <a href="anxious.html" id="non-header">
+              <article class="mood-text">anxious</article>
+            </a>
+            <a href="calm.html" id="non-header">
+              <article class="mood-text">calm</article>
+            </a>
+            <a href="frustrated.html" id="non-header">
+              <article class="mood-text">frustrated</article>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="otherbox">
+      <div class="spotify-facts-flexbox">
+        <div class="spotify-playlist">
+          <iframe src="https://open.spotify.com/embed/album/5hbw8ywZfhZDCKtpqPnrZb?utm_source=generator
+" width="100%" height="100%" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+        <div class="fun-facts">
+          <center>
+            <h2>Fun Facts:</h2>
+            <div class="fact-box">
+              <li class="fact">Cows have best friends. They tend to feel less stressed when they hang out with them</li>
+              <li class="fact">Norway has knighted a penguin named Sir Nils Olav III and He and his family live in
+                edinburg
+                Zoo.</li>
+              <li class="fact">The voices of Mickey and Minnie Mouse got married in real life.</li>
+              <li class="fact">Hershey kisses are called “kisses' 'because when they drop on the conveyor they make
+                mwah!
+                Sounds just like a kiss.</li>
+              <li class="fact">In the early days vikings gave kittens as a wedding gift.</li>
+              <li class="fact">Baby elephants sucks on their trunks -- they're no different than human babies as one of
+                the
+                smartest animals.</li>
+              <li class="fact">In Switzerland it's illegal to own only one guinea pig.guinea pigs are very social
+                animals so
+                in Switzerland you have to give them a mate.we would like to propose this law can become international.
+              </li>
+              <li class="fact">There's an island in Japan filled with friendly bunnies which freely roam around the
+                island.
+              </li>
+              <li class="fact">Babies sleep up to 4500 hours in the first years of their lives.</li>
+            </div>
+          </center>
+        </div>
+      </div>
+      <div class="tasklist-timer-calendar-flexbox">
+        <section class="task-list">
+          <div id="myDIV" class="to-do-title">
+            <h2>To Do List</h2>
+            <input class="to-do-input" type="text" id="myInput" placeholder="Add a new task">
+            <span onclick="addToList()" class="addBtn">Add</span>
+          </div>
+          <section class="to-do-list">
+            <ul class="todo" id="myUL">
+
+            </ul>
+          </section>
+        </section>
+        <div class="timer-calendar-flexbox">
+          <div class="timer-widget">
+            <center>
+              <div class="stopwatch">
+                <h2 id="time">00:00:00</h2>
+              </div>
+              <button class="stopwatch-button" id="button-start">Start</button>
+              <button class="stopwatch-button" id="button-stop">Stop</button>
+              <button class="stopwatch-button" id="button-reset">Reset</button>
+            </center>
+          </div>
+          <div class="calendar-widget">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="anxious.html"></script>
+  
+</body>
+
+</html>
