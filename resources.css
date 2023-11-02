@@ -1,0 +1,124 @@
+ html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Noto Sans', sans-serif;
+
+  /* Users can't highlight anything on the page */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Flexbox:  */
+.top-widget{
+  display: flex;
+}
+
+/* Header */
+.marigold{
+  margin-left: 300px;
+  display: inline;
+  margin-top: 55px;
+  font-size: 40px;
+}
+
+/* Entire nav bar itself */
+.nav-bar{
+  margin-top: 73px;
+  margin-left: 79px;
+}
+
+/* Individual items on the nav bar */
+.nav-item{
+  display: inline;
+  padding-right: 81px;
+  font-size: 24px;
+}
+
+/* Links (gets rid of the underline) */
+a{
+  color: white;
+  text-decoration-line: none;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #CAD2C5;
+}
+
+a#non-header:hover{
+  color: white;
+}
+
+a#selected{
+  color: #CAD2C5;
+  border-bottom: 3px solid #CAD2C5;
+  padding-bottom: 10px;
+}
+
+body{
+  background-color: #52796F;
+  color: white;
+}
+
+.big-flexbox-rsc{
+  display: flex;
+  flex-direction: column;
+  width: 1367px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #84A98C;
+}
+
+.rsc-h3-text{
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.rsc-h4-text{
+  font-size: 20px;
+}
+
+.rsc-p-text{
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+}
+
+.timer-videos-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.videos-t-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 25px;
+  margin-top: 25px;
+  background-color: #a9c6af;
+}
+
+.videos{
+  display: flex;
+  flex-direction: row;
+}
+
+.video{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.exercises-block{
+  margin-top: 50px;
+}
+
+.videos-e-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
